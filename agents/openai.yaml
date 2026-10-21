@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design to Production"
+  short_description: "Map an HTML design onto an existing app page"
+  default_prompt: "Use $design-to-production with the attached HTML design to analyze the matching app page, map its existing functionality, and present the migration plan for my approval."
