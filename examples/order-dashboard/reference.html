@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northstar Orders — HTML design reference</title>
+  <link rel="stylesheet" href="reference.css" />
+</head>
+<body>
+  <!-- Static visual reference, intentionally separate from the React application. -->
+  <div class="after-page">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">N<span>✦</span></span><span>northstar<small>COMMERCE STUDIO</small></span></div>
+      <div class="sidebar-group"><span class="sidebar-caption">WORKSPACE</span><div class="nav-item active"><span>▦</span> Orders <span class="nav-count">6</span></div></div>
+      <div class="sidebar-bottom"><div class="sidebar-avatar">NS</div><div>Northstar Studio<small>Demo workspace</small></div></div>
+    </aside>
+    <div class="workspace"><main>
+      <div class="breadcrumb">WORKSPACE <span>/</span> ORDERS</div>
+      <div class="page-heading"><div><div class="eyebrow"><span class="green-dot"></span> LIVE OVERVIEW</div><h1>Good morning,<br><em>here’s the picture.</em></h1><p>Every order, one clear place to keep things moving.</p></div><div class="date-card"><span>WEDNESDAY</span><strong>21</strong><small>OCTOBER 2026</small></div></div>
+      <div class="section-title"><h2>At a glance</h2><span>YOUR STORE TODAY</span></div>
+      <div class="stat-grid"><article class="stat-card stat-dark"><span>01 / ALL ORDERS</span><strong>06</strong><small>Across your workspace</small><b>↗</b></article><article class="stat-card"><span>02 / NEEDS ATTENTION</span><strong>02</strong><small>Pending fulfillment</small><b>↗</b></article><article class="stat-card"><span>03 / COMPLETED</span><strong>02</strong><small>Successfully fulfilled</small><b>↗</b></article><article class="stat-card stat-orange"><span>04 / ORDER VALUE</span><strong>$1,236</strong><small>For the sample orders</small><b>↗</b></article></div>
+      <section class="orders-panel"><div class="orders-heading"><div><span class="eyebrow">THE DETAILS</span><h2>Recent orders <span>(6)</span></h2></div><div class="controls"><label class="search-label"><span class="search-icon">⌕</span><input placeholder="Search orders" aria-label="Search orders"></label><label class="filter-label"><select aria-label="Filter by status"><option>All statuses</option></select></label></div></div><div class="table-scroll"><table><thead><tr><th>ORDER</th><th>CUSTOMER</th><th>ITEM</th><th>DATE</th><th>STATUS</th><th>AMOUNT</th><th>ACTION</th></tr></thead><tbody>
+        <tr><td class="order-id">NS-1048</td><td><span class="customer-name">Maya Chen</span><span class="mobile-item">Studio lamp</span></td><td>Studio lamp</td><td>Oct 21, 2026</td><td><span class="status status-pending">Pending</span></td><td class="amount-cell">$128</td><td class="action-cell"><button type="button">Mark fulfilled</button></td></tr>
+        <tr><td class="order-id">NS-1047</td><td><span class="customer-name">Daniel Rivera</span><span class="mobile-item">Arc side table</span></td><td>Arc side table</td><td>Oct 20, 2026</td><td><span class="status status-processing">Processing</span></td><td class="amount-cell">$420</td><td class="action-cell"><button type="button">Mark fulfilled</button></td></tr>
+        <tr><td class="order-id">NS-1046</td><td><span class="customer-name">Amina Yusuf</span><span class="mobile-item">Linen throw</span></td><td>Linen throw</td><td>Oct 20, 2026</td><td><span class="status status-fulfilled">Fulfilled</span></td><td class="amount-cell">$84</td><td class="action-cell"><span class="done">Done</span></td></tr>
+        <tr><td class="order-id">NS-1045</td><td><span class="customer-name">Oliver Park</span><span class="mobile-item">Studio lamp</span></td><td>Studio lamp</td><td>Oct 19, 2026</td><td><span class="status status-pending">Pending</span></td><td class="amount-cell">$128</td><td class="action-cell"><button type="button">Mark fulfilled</button></td></tr>
+        <tr><td class="order-id">NS-1044</td><td><span class="customer-name">Sofia Martin</span><span class="mobile-item">Pebble vase</span></td><td>Pebble vase</td><td>Oct 18, 2026</td><td><span class="status status-fulfilled">Fulfilled</span></td><td class="amount-cell">$56</td><td class="action-cell"><span class="done">Done</span></td></tr>
+        <tr><td class="order-id">NS-1043</td><td><span class="customer-name">Nora Patel</span><span class="mobile-item">Arc side table</span></td><td>Arc side table</td><td>Oct 17, 2026</td><td><span class="status status-processing">Processing</span></td><td class="amount-cell">$420</td><td class="action-cell"><button type="button">Mark fulfilled</button></td></tr>
+      </tbody></table></div><div class="table-footer">Showing 6 of 6 sample orders <span>Use search and status to narrow the list</span></div></section>
+    </main></div>
+  </div>
+</body>
+</html>
