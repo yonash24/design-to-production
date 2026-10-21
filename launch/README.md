@@ -9,7 +9,7 @@ These drafts describe the **constructed Northstar example** accurately. They are
 - Social preview: upload [`../examples/order-dashboard/evidence/social-preview.png`](../examples/order-dashboard/evidence/social-preview.png) in GitHub repository **Settings → General → Social preview**.
 - Add the example's before/after image pair to posts. The repository README already embeds them.
 
-GitHub's connected tool currently exposes repository reading and code/issue/PR writes, but no repository topic, description, or social-preview setting. Apply those three profile changes in the repository Settings UI after the code is published.
+The repository description and seven topics were applied on October 21, 2026. GitHub's connected tool does not expose the social-preview setting, and no browser session was available here. Upload the prepared image in GitHub Settings after reviewing the draft PR.
 
 ## Short post
 
@@ -39,7 +39,7 @@ I would value feedback on where the workflow still loses detail, especially anim
 
 ## Sharing sequence
 
-1. Publish the example and README, then set repository topics and social preview.
+1. Review and merge the draft PR, then upload the prepared social preview image.
 2. Share the short post with the before/after image where you already participate. Adapt wording to each community's rules.
 3. Share the developer post in a relevant React, Next.js, Codex, Claude Code, or Agent Skills discussion where project showcases are welcome.
 4. Respond to concrete feedback with issues or follow-up examples. Track visits to the example, installation questions, issue reports, and stars; do not treat stars alone as a measure of migration quality.
